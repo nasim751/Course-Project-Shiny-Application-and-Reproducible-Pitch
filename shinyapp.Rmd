@@ -1,0 +1,41 @@
+---
+title: "Shiny Application and Reproducible Pitch"
+author: "Nasim Ahmed"
+date: "13 November 2018"
+output: ioslides_presentation
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+##Diamond Analysis Report
+In this part, we will present diamond analysis report enabled developing data products using shiny apps being embedded within Rmarkdown
+
+
+
+## Application Overview
+- There are several parameters exist in diomonds products and which can be analysized to find out those  parameter.
+- The common parameters are Carat, Price, sample, size, and color depth.
+- In this report, we will try to find out the right parameters for the best Diamonds parameter.
+
+
+## Data Used
+
+The diamonds data set is used for this application, which is part of ggplot2 package. Containing information about 53940 diamonds with 10 variables.
+
+
+```{r, echo=TRUE}
+library(ggplot2)
+head(diamonds)
+```
+
+## Shiny files
+The application is build using shiny package and there are two source code files such as
+
+ui.R and server.R
+
+The above file can be found here : [https://github.com/nasim751/Course-Project-Shiny-Application-and-Reproducible-Pitch]
